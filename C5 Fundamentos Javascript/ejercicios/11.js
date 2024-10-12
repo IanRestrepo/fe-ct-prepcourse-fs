@@ -6,6 +6,10 @@ function sonIguales(x, y) {
   // 5, 5 ---> true 
   // 5, 8 ---> false 
   // Tu código:
+
+  return x === y;
 }
+
+sonIguales(5, 5);
 
 module.exports = sonIguales;
